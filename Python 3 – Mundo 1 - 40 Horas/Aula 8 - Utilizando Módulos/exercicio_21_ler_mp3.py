@@ -7,6 +7,6 @@ pygame.mixer.music.load('exercicio_21.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
 
-
+# !!!!!! CONTÉM UM ERRO: ModuleNotFoundError: No module named 'pygame' !!!!!!!
 
 
