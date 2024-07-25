@@ -15,6 +15,15 @@ MATRÍCULA|NOME|NOTA
 003|Júnior|6,5
 004|Pedro|10
 
+Dia Da Semana|Treino
+---|---|
+Segunda-feira|Costas
+Terça-feira|Quadríceps
+Quarta-feira|Peitoral
+Quinta-feira|Ombro/Posterior
+Sexta-feira|Tríceps/Bíceps/Panturrilha
+Sábado|Repete o Músculo fraco
+
 **Criando uma lista:** 
 
 * Apagar as luzes
@@ -66,3 +75,4 @@ Olá, Mundo! 🤙 🌝
 Para acessar a lista completa de Emojis [Clique aqui](https://github.com/ikatyang/emoji-cheat-sheet)
 
 Caso queira adicionar emojis nos títulos das issues, copia o emoji [neste site](https://emojipedia.org/) e cole no título da issue.
+
