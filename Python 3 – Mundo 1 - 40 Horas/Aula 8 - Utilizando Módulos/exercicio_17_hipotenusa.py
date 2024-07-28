@@ -5,10 +5,10 @@
 from math import hypot, sqrt 
 
 # Ler o comprimento do cateto oposto
-cateto_oposto = float(input("Digite o comprimento do cateto oposto do triângulo retângulo: "))
+cateto_oposto = float(input("\033[1;36mDigite o comprimento do cateto oposto do triângulo retângulo: \033[m"))
 
 # Ler o comprimento do cateto adjacente
-cateto_adjacente = float(input("Digite o comprimento do cateto adjacente do triângulo retângulo: "))
+cateto_adjacente = float(input("\033[1;34mDigite o comprimento do cateto adjacente do triângulo retângulo: \033[m"))
 
 # Criar uma fórmula para calcular o comprimento da hipotenusa
 # O cálculo da hipotenusa é enunciado pelo Teorema de Pitágoras, 
@@ -23,4 +23,4 @@ cateto_adjacente = float(input("Digite o comprimento do cateto adjacente do tri�
 hipot = hypot(cateto_oposto, cateto_adjacente)
 
 # Exibir o comprimento da hipotenusa 
-print(f"O comprimento da hipotenusa é: {hipot:.2f}")
+print(f"\033[1;7;30mO comprimento da hipotenusa é: \033[4;31m{hipot:.2f}\033[m")

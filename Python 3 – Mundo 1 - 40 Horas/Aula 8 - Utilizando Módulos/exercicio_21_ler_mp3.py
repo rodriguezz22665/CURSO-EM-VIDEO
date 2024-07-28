@@ -3,10 +3,10 @@
 import pygame
 
 pygame.init()
-pygame.mixer.music.load('exercicio_21.mp3')
+pygame.mixer.music.load('ex21.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
 
-# !!!!!! CONTÉM UM ERRO: ModuleNotFoundError: No module named 'pygame' !!!!!!!
+# !!!!!! CONTÉM UM ERRO: pygame.error: No file 'ex21.mp3' found in working directory 'C:\Users\rodri\OneDrive\Documentos\GitHub\CURSO-EM-VIDEO'. !!!!!!!
 
 
