@@ -1,3 +1,5 @@
+#Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+
 dist = float(input("Digite alguma distância em metros: "))
 
 dam = dist/10
