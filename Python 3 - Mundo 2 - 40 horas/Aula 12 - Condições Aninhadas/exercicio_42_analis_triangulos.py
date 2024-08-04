@@ -11,15 +11,15 @@ reta1 = float(input("Digite o comprimento da primeira reta: "))
 reta2 = float(input("Digite o comprimento da segunda reta: "))
 reta3 = float(input("Digite o comprimento da terceira reta: "))
 
-if reta1 == reta2 and reta1 == reta3 and reta3 == reta2 == 1:
-    tipo = 'Equilátero'
-elif reta1 != reta2 and reta1 != reta3 and reta3 != reta2 != 1: 
-    tipo = 'Escaleno'
-else:
-    tipo = 'Isóceles'    
-
 if reta1 + reta2 > reta3 and reta1 + reta3 > reta2 and reta3 + reta2 > reta1:
+    if reta1 == reta2 == reta3:
+        tipo = 'Equilátero'
+    elif reta1 != reta2 != reta3 != reta1:
+        tipo = 'Escaleno'
+    else:
+        tipo = 'Isóceles'    
     print("Os seguimentos {}, {} e {} formam um triângulo {}.".format(reta1,reta2,reta3,tipo))
+
 else:
     print("Os seguimentos {}, {}, e {} não formam um triângulo!".format(reta1,reta2,reta3))    
 
