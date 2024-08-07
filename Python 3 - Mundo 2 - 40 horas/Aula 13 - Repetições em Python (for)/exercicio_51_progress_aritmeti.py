@@ -6,8 +6,9 @@ print("-="*41)
 
 termo = int(input("\nPRIMEIRO TERMO: "))
 razao = int(input("RAZÃO: "))
+decimo = termo + (10 -1) * razao
 
-for c in range (termo,20,razao):
+for c in range (termo,decimo+razao,razao):
     print(c, end ='  ->  ')
 print(" ACABOU")    
-    
+ 
