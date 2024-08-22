@@ -7,14 +7,24 @@ print("SEQUÊNCIA DE FIBONACCI")
 print('~='*19)
 
 quant_termos = int(input("Quantos termos você deseja vizualizar? "))
-cont = 1
-anterior = 0 
-
-print(cont)
+cont = 0
+cont2 = 3
+anterior = 1
 
 while cont < quant_termos:
         cont += 1
-        print(cont, end= '')
+        cont2 += 1
+        if cont == 3:
+                anterior += anterior
+        elif cont == 4:
+                anterior += 1     
+ 
+        
+        #cada termo a partir do terceiro é a soma dos dois termos anteriores
+        print(anterior, end= '')
+        print(cont)
+        print(cont2, end='')
+
 
         
 
