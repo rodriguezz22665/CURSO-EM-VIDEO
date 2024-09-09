@@ -7,17 +7,14 @@
 print('{:|^80}'.format(" LOJAS RODRIGUEZz "))
 
 valor_prod = tot_valor = cont = tot_1000 = 0
-mais_barato = ''
+mais_barato = ' '
 
 while True:
 
     produto = str(input("\nNOME DO PRODUTO: ")).strip().upper()
     preco = float(input("PREÇO: "))
-    opcao = str(input("Deseja continuar? [S/N] ")).strip().upper()[0]
-    if opcao in 'S':
-            print("-="*40)
     cont += 1
-    
+    opcao = ' '
     while opcao not in 'SN':
         opcao = str(input("Deseja continuar? [S/N] ")).strip().upper()[0]
         if opcao in 'S':
@@ -37,11 +34,11 @@ while True:
     if opcao in 'Nn':
         break
 
-print("-="*40) 
+
 print('{:=^80}'.format(" RESUMO DA COMPRA "))
-print(f'\nVALOR TOTAL: R$ {tot_valor}')
+print(f'\nVALOR TOTAL: R$ {tot_valor:.2f}')
 print(f'VOCÊ COMPROU {tot_1000} PRODUTO(s) ACIMA DE R$ 1000,00.')
-print(f'{mais_barato} FOI O PRODUTO MAIS BARATO QUE VOCÊ COMPROU.')
+print(f'O PRODUTO MAIS BARATO QUE VOCÊ COMPROU FOI {mais_barato} que custa R$ {valor_prod:.2f}')
 print("\n")
 print('{:^80}'.format("OBRIGADO POR COMPRAR NAS LOJAS RODRIGUEZz! VOLTE SEMPRE!"))    
 print("{:_^80}".format(" © Copyright 2024 "))
